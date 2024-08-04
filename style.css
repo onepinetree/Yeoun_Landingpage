@@ -1,0 +1,56 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* 이미지를 왼쪽에서부터 정렬 */
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto; /* 가운데 정렬을 위한 마진 조정 */
+}
+
+.image-gallery img {
+    width: 100%; /* 이미지가 컨테이너 너비를 정확히 채우도록 설정 */
+    height: auto; /* 이미지의 높이를 자동으로 조정하여 비율 유지 */
+    display: block;
+}
+
+
+/* styles.css 파일 */
+.cta-button {
+    position: fixed; /* 버튼을 고정 */
+    bottom: 2rem;    /* 하단에서 10px 떨어진 위치 */
+    left: 2rem;      /* 왼쪽에서 20px 떨어진 위치 */
+    right: 2rem;     /* 오른쪽에서 20px 떨어진 위치 */
+    padding: 1rem 0; /* 상하 패딩을 15px로 증가시켜 더 두껍게 함 */
+    background-color: #F76143; /* 배경 색상은 오렌지색 */
+    color: white;    /* 글자 색상 */
+    text-align: center; /* 글자 가운데 정렬 */
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    text-decoration: none; /* 링크 밑줄 제거 */
+    border-radius: 20px; /* 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+    z-index: 1000; /* 다른 요소 위에 표시 */
+  }
+
+
+  .content {
+    height: 2000px; /* 내용이 길게 표시되도록 설정 */
+  }
+  
+  
+  
+  
